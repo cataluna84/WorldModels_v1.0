@@ -9,6 +9,7 @@ For full installation and run instructions:
 
 - Create the anaconda environment file from requirement.txt
 - Run the notebooks for analysis of the experiments based on the weights and collected data
-- For performing the experiments 
+- For running the benchmarks, in normal mode: 
+  python model.py car_racing --filename ./controller/car_racing.cma.xxxxx.best.json --render --final_mode
 
-PS: Experiments and installation instructions are as per the Keras-GPU(v2.3.1) and Tensorflow-GPU(v2.1). (Experimentations done on a AMD's 8-core CPU with an Nvidia's GeForce RTX-2070 (Turing))
+PS: Experiments and installation instructions are as per the Keras-GPU(v2.3.1) and Tensorflow-GPU(v2.1). (Experimentations done on a AMD's 8-core CPU with a Nvidia's GeForce RTX-2070 (Turing))
