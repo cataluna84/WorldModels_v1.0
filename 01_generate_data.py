@@ -4,7 +4,7 @@
 import numpy as np
 import random
 import config
-#import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 from env import make_env
 
@@ -14,7 +14,6 @@ DIR_NAME = './data/rollout/'
 
 
 def main(args):
-
     env_name = args.env_name
     total_episodes = args.total_episodes
     time_steps = args.time_steps
@@ -35,7 +34,7 @@ def main(args):
 
         while s < total_episodes:
 
-            episode_id = random.randint(0, 2**31 - 1)
+            episode_id = random.randint(0, 2 ** 31 - 1)
             filename = DIR_NAME + str(episode_id) + ".npz"
 
             observation = env.reset()
@@ -79,8 +78,9 @@ def main(args):
 
         env.close()
 
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description=('Create new training data'))
+    parser = argparse.ArgumentParser(description='Create new training data')
     parser.add_argument('env_name', type=str, help='name of environment')
     parser.add_argument('--total_episodes', type=int, default=200,
                         help='total number of episodes to generate per worker')
