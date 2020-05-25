@@ -1,0 +1,457 @@
+2020-05-21 04:43:24.569153: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-05-21 04:43:24.630716: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:24.632500: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:24.666469: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:24.686377: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:24.691874: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:24.728714: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:24.734873: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:24.807994: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:24.809557: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-05-21 04:43:27.588753: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-05-21 04:43:27.622852: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:27.623264: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:27.625543: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:27.627739: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:27.628286: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:27.631036: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:27.632621: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:27.638671: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:27.640114: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+Using TensorFlow backend.
+assigning the rank and nworkers 7 2
+2020-05-21 04:43:27.715035: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX FMA
+2020-05-21 04:43:27.731321: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-05-21 04:43:27.736040: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:27.736331: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:27.738436: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:27.740404: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:27.740796: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:27.743021: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:27.744409: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:27.747452: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4013385000 Hz
+2020-05-21 04:43:27.747923: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55acb6049020 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:27.747946: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-05-21 04:43:27.748853: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:27.748944: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:27.748967: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:27.748986: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:27.749005: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:27.749024: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:27.749043: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:27.749063: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:27.749983: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:27.750188: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-05-21 04:43:27.750751: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:27.751211: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+Using TensorFlow backend.
+assigning the rank and nworkers 7 3
+2020-05-21 04:43:27.797264: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-05-21 04:43:27.805291: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-05-21 04:43:27.807570: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX FMA
+2020-05-21 04:43:27.818406: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4013385000 Hz
+2020-05-21 04:43:27.818910: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56302bded020 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:27.818955: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-05-21 04:43:27.822307: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:27.822382: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:27.822406: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:27.822450: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:27.822489: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:27.822512: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:27.822556: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:27.822578: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:27.827180: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-05-21 04:43:27.827259: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:27.828217: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:27.828487: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:27.830720: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:27.832913: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:27.833315: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:27.835615: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:27.837048: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:27.842672: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:27.839380: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:27.839663: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:27.841924: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:27.844531: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:27.845104: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:27.845410: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-05-21 04:43:27.848444: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:27.850555: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:27.851155: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-05-21 04:43:27.853267: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-05-21 04:43:27.856925: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+Using TensorFlow backend.
+2020-05-21 04:43:27.893775: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-05-21 04:43:27.908680: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:27.909049: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:27.909177: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:27.909352: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+Using TensorFlow backend.
+2020-05-21 04:43:27.912113: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:27.912718: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-05-21 04:43:27.913121: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:27.914667: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:27.915088: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:27.915465: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:27.915839: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:27.917928: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:27.918221: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:27.919591: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:27.919627: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:27.925119: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:27.926197: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+assigning the rank and nworkers 7 1
+2020-05-21 04:43:27.935380: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX FMA
+2020-05-21 04:43:27.937079: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+Using TensorFlow backend.
+2020-05-21 04:43:27.944616: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4013385000 Hz
+2020-05-21 04:43:27.945115: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5583a6920020 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:27.945157: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-05-21 04:43:27.949863: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:27.949968: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:27.949996: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:27.950020: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:27.950045: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:27.950070: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:27.950094: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:27.951048: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:27.946279: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+Using TensorFlow backend.
+2020-05-21 04:43:27.946514: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:27.946864: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:27.949547: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:27.952590: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+assigning the rank and nworkers 7 4
+2020-05-21 04:43:27.953101: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:27.956163: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:27.958372: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:27.963344: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:27.964277: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX FMA
+2020-05-21 04:43:27.969127: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-05-21 04:43:27.969265: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:27.971138: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-05-21 04:43:27.976271: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4013385000 Hz
+2020-05-21 04:43:27.976805: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x558a929c9020 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:27.976860: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Using TensorFlow backend.
+2020-05-21 04:43:27.980048: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:27.980185: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:27.980253: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:27.980304: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:27.980353: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:27.980398: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:27.980443: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:27.980487: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+assigning the rank and nworkers 7 0
+2020-05-21 04:43:28.021455: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX FMA
+2020-05-21 04:43:28.031363: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4013385000 Hz
+2020-05-21 04:43:28.031954: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5559999d7020 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:28.031989: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+assigning the rank and nworkers 7 5
+2020-05-21 04:43:28.045576: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX FMA
+2020-05-21 04:43:28.050788: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-05-21 04:43:28.050929: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:28.053555: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:28.053693: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:28.053724: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:28.053809: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:28.053839: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:28.053868: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:28.053894: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:28.053946: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:28.055801: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4013385000 Hz
+assigning the rank and nworkers 7 6
+2020-05-21 04:43:28.056216: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f0eeab7020 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:28.056302: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-05-21 04:43:28.063749: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:28.063903: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:28.063938: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:28.063962: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:28.063995: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:28.064024: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:28.064057: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:28.064091: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:28.064635: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-05-21 04:43:28.064887: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:28.066884: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX FMA
+2020-05-21 04:43:28.079432: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 4013385000 Hz
+2020-05-21 04:43:28.080071: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55dd2e323020 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:28.080139: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-05-21 04:43:28.108875: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-05-21 04:43:28.109064: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:28.115163: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:01:00.0 name: GeForce RTX 2070 computeCapability: 7.5
+coreClock: 1.71GHz coreCount: 36 deviceMemorySize: 7.79GiB deviceMemoryBandwidth: 417.29GiB/s
+2020-05-21 04:43:28.115341: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:28.115398: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:28.115438: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-05-21 04:43:28.115480: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-05-21 04:43:28.115525: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-05-21 04:43:28.115561: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-05-21 04:43:28.115603: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:28.165178: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-05-21 04:43:28.165321: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-05-21 04:43:28.217545: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-05-21 04:43:28.217586: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2020-05-21 04:43:28.217595: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2020-05-21 04:43:28.290237: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6879 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2070, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2020-05-21 04:43:28.296174: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55acb9abc840 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:28.296249: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2070, Compute Capability 7.5
+2020-05-21 04:43:28.372379: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-05-21 04:43:28.372430: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2020-05-21 04:43:28.372447: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2020-05-21 04:43:28.403347: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6778 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2070, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2020-05-21 04:43:28.409801: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56302f860bb0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:28.409861: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2070, Compute Capability 7.5
+2020-05-21 04:43:28.501768: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-05-21 04:43:28.501843: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2020-05-21 04:43:28.501860: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2020-05-21 04:43:28.523316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6661 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2070, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2020-05-21 04:43:28.530822: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5583aa393830 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:28.531037: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2070, Compute Capability 7.5
+2020-05-21 04:43:28.574361: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-05-21 04:43:28.574634: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2020-05-21 04:43:28.574709: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2020-05-21 04:43:28.577259: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-05-21 04:43:28.577307: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2020-05-21 04:43:28.577319: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2020-05-21 04:43:28.577742: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6471 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2070, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2020-05-21 04:43:28.579820: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-05-21 04:43:28.579885: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2020-05-21 04:43:28.579917: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2020-05-21 04:43:28.581288: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x558a9643c9a0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:28.581363: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6416 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2070, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2020-05-21 04:43:28.581450: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2070, Compute Capability 7.5
+2020-05-21 04:43:28.587036: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55599d44a7c0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:28.587083: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2070, Compute Capability 7.5
+2020-05-21 04:43:28.589092: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6416 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2070, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2020-05-21 04:43:28.594296: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f0f252a830 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:28.594372: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2070, Compute Capability 7.5
+2020-05-21 04:43:28.618447: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-05-21 04:43:28.618519: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2020-05-21 04:43:28.618531: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2020-05-21 04:43:28.621243: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 6307 MB memory) -> physical GPU (device: 0, name: GeForce RTX 2070, pci bus id: 0000:01:00.0, compute capability: 7.5)
+2020-05-21 04:43:28.628081: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55dd31d96990 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-05-21 04:43:28.628200: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): GeForce RTX 2070, Compute Capability 7.5
+('process', 2, 'out of total ', 7, 'started')
+('process', 3, 'out of total ', 7, 'started')
+('process', 1, 'out of total ', 7, 'started')
+('process', 5, 'out of total ', 7, 'started')
+('process', 4, 'out of total ', 7, 'started')
+('process', 6, 'out of total ', 7, 'started')
+('process', 0, 'out of total ', 7, 'started')
+('training', 'car_racing')
+('population', 12)
+('num_worker', 6)
+('num_worker_trial', 2)
+('num_episode', 4)
+('max_length', 1000)
+2020-05-21 04:43:34.117507: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:34.529963: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:34.552485: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:34.625234: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:34.635505: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:34.840519: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-21 04:43:34.880975: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:35.153692: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:35.160432: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:35.246851: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:35.306207: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:35.431102: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-05-21 04:43:38.588410: W tensorflow/stream_executor/gpu/redzone_allocator.cc:312] Not found: ./bin/ptxas not found
+Relying on driver to perform ptx compilation. This message will be only logged once.
+2020-05-21 04:43:38.596480: W tensorflow/stream_executor/gpu/redzone_allocator.cc:312] Not found: ./bin/ptxas not found
+Relying on driver to perform ptx compilation. This message will be only logged once.
+2020-05-21 04:43:38.614907: W tensorflow/stream_executor/gpu/redzone_allocator.cc:312] Not found: ./bin/ptxas not found
+Relying on driver to perform ptx compilation. This message will be only logged once.
+2020-05-21 04:43:38.631528: W tensorflow/stream_executor/gpu/redzone_allocator.cc:312] Not found: ./bin/ptxas not found
+Relying on driver to perform ptx compilation. This message will be only logged once.
+2020-05-21 04:43:38.805283: W tensorflow/stream_executor/gpu/redzone_allocator.cc:312] Not found: ./bin/ptxas not found
+Relying on driver to perform ptx compilation. This message will be only logged once.
+2020-05-21 04:43:38.834219: W tensorflow/stream_executor/gpu/redzone_allocator.cc:312] Not found: ./bin/ptxas not found
+Relying on driver to perform ptx compilation. This message will be only logged once.
+('car_racing', (1, 279, 501.64, 223.81, 671.63, 128.68, 0.07906, 1000.0, 1000))
+('car_racing', (2, 543, 478.49, 239.8, 645.74, 133.73, 0.07898, 1000.0, 1000))
+('car_racing', (3, 813, 344.1, 61.13, 614.47, 177.5, 0.0789, 1000.0, 1000))
+('car_racing', (4, 1083, 484.53, 249.14, 693.33, 136.99, 0.07882, 1000.0, 1000))
+('car_racing', (5, 1359, 367.34, 236.16, 568.66, 105.8, 0.07875, 1000.0, 1000))
+('car_racing', (6, 1629, 445.49, 224.03, 622.76, 119.83, 0.07868, 1000.0, 1000))
+('car_racing', (7, 1900, 335.22, 111.79, 491.79, 110.77, 0.07861, 1000.0, 1000))
+('car_racing', (8, 2169, 387.25, 102.87, 571.56, 123.54, 0.07854, 1000.0, 1000))
+('car_racing', (9, 2440, 471.35, 336.61, 681.32, 111.56, 0.07846, 1000.0, 1000))
+('car_racing', (10, 2711, 389.2, 195.67, 595.32, 119.1, 0.07839, 1000.0, 1000))
+('car_racing', (11, 2979, 534.35, 332.62, 641.34, 97.0, 0.07832, 1000.0, 1000))
+('car_racing', (12, 3254, 346.33, 159.34, 528.29, 114.45, 0.07825, 1000.0, 1000))
+('car_racing', (13, 3521, 320.37, 82.39, 567.89, 132.84, 0.07818, 1000.0, 1000))
+('car_racing', (14, 3791, 397.33, 162.49, 607.83, 133.38, 0.07811, 1000.0, 1000))
+('car_racing', (15, 4064, 439.94, 327.87, 553.84, 73.83, 0.07804, 1000.0, 1000))
+('car_racing', (16, 4337, 430.41, 164.05, 555.45, 98.17, 0.07797, 1000.0, 1000))
+('car_racing', (17, 4609, 401.43, 152.17, 665.18, 123.95, 0.0779, 1000.0, 1000))
+('car_racing', (18, 4881, 486.03, 273.98, 610.81, 90.88, 0.07783, 1000.0, 1000))
+('car_racing', (19, 5150, 465.86, 210.06, 620.04, 92.39, 0.07777, 1000.0, 1000))
+('car_racing', (20, 5419, 490.27, 328.87, 597.86, 79.78, 0.07771, 1000.0, 1000))
+('car_racing', (21, 5689, 445.84, 241.75, 570.96, 105.02, 0.07764, 1000.0, 1000))
+('car_racing', (22, 5960, 407.69, 242.6, 570.59, 96.6, 0.07758, 1000.0, 1000))
+('car_racing', (23, 6229, 467.06, 277.15, 584.86, 112.01, 0.07752, 1000.0, 1000))
+('car_racing', (24, 6499, 459.06, 307.41, 634.39, 92.89, 0.07745, 1000.0, 1000))
+('car_racing', (25, 6769, 378.1, 211.71, 597.53, 133.56, 0.0774, 1000.0, 1000))
+[478.6841 454.4237 687.9348 540.0478 439.735  482.8701 381.0198 465.08
+ 450.6955 688.5648 388.7032 601.8303]
+[504.96575833333327]
+('improvement', 25, 3.325758333333283, 'curr', 504.96575833333327, 'prev', 501.64, 'best', 504.96575833333327)
+('car_racing', (26, 7304, 469.54, 297.23, 758.8, 147.47, 0.07734, 1000.0, 1000))
+('car_racing', (27, 7572, 497.0, 298.25, 678.24, 101.75, 0.07729, 1000.0, 1000))
+('car_racing', (28, 7841, 487.56, 330.96, 583.33, 83.21, 0.07723, 1000.0, 1000))
+('car_racing', (29, 8110, 517.34, 385.23, 631.54, 79.77, 0.07717, 999.08, 1000))
+('car_racing', (30, 8379, 543.58, 445.96, 621.53, 58.56, 0.07712, 1000.0, 1000))
+('car_racing', (31, 8646, 452.36, 251.33, 620.21, 120.11, 0.07706, 1000.0, 1000))
+('car_racing', (32, 8915, 472.3, 278.37, 608.94, 96.58, 0.077, 1000.0, 1000))
+('car_racing', (33, 9185, 487.54, 260.34, 676.73, 112.08, 0.07694, 1000.0, 1000))
+('car_racing', (34, 9458, 475.69, 282.66, 598.98, 101.33, 0.07688, 1000.0, 1000))
+('car_racing', (35, 9726, 469.39, 246.82, 623.69, 110.3, 0.07683, 1000.0, 1000))
+('car_racing', (36, 9998, 437.15, 94.92, 626.91, 158.69, 0.07678, 1000.0, 1000))
+('car_racing', (37, 10269, 428.01, 58.08, 597.86, 143.37, 0.07672, 998.04, 1000))
+('car_racing', (38, 10539, 452.2, 318.84, 642.83, 93.71, 0.07668, 1000.0, 1000))
+('car_racing', (39, 10810, 450.92, 311.06, 617.61, 90.18, 0.07663, 1000.0, 1000))
+('car_racing', (40, 11078, 448.89, 266.21, 686.55, 118.19, 0.07658, 1000.0, 1000))
+('car_racing', (41, 11350, 419.46, 237.0, 580.98, 106.02, 0.07653, 1000.0, 1000))
+('car_racing', (42, 11622, 456.07, 295.57, 660.94, 114.68, 0.07648, 1000.0, 1000))
+('car_racing', (43, 11895, 433.34, 227.37, 623.0, 127.17, 0.07642, 1000.0, 1000))
+('car_racing', (44, 12163, 399.35, 101.36, 577.66, 132.36, 0.07638, 1000.0, 1000))
+('car_racing', (45, 12433, 312.37, 61.65, 548.93, 144.97, 0.07632, 1000.0, 1000))
+('car_racing', (46, 12703, 350.2, 208.34, 492.23, 93.9, 0.07627, 1000.0, 1000))
+('car_racing', (47, 12971, 428.43, 76.44, 685.35, 142.75, 0.07623, 1000.0, 1000))
+('car_racing', (48, 13244, 396.44, 270.51, 534.39, 74.38, 0.07618, 1000.0, 1000))
+('car_racing', (49, 13516, 371.82, 263.62, 532.96, 77.03, 0.07614, 1000.0, 1000))
+('car_racing', (50, 13784, 435.42, 203.59, 643.29, 135.15, 0.07609, 1000.0, 1000))
+[294.2942 412.5326 578.5372 597.8684 396.9949 519.0816 479.4153 426.6759
+ 516.9357 496.1785 465.4669 498.6453]
+[473.55220833333334]
+('improvement', 50, -31.41354999999993, 'curr', 473.55220833333334, 'prev', 504.96575833333327, 'best', 504.96575833333327)
+('car_racing', (51, 14325, 422.01, 286.52, 558.53, 75.91, 0.07605, 998.97, 1000))
+('car_racing', (52, 14601, 475.93, 371.47, 685.09, 81.17, 0.07601, 1000.0, 1000))
+('car_racing', (53, 14876, 519.03, 275.69, 686.64, 120.42, 0.07597, 999.18, 1000))
+('car_racing', (54, 15147, 571.16, 484.41, 682.4, 51.27, 0.07594, 1000.0, 1000))
+('car_racing', (55, 15419, 487.75, 286.72, 683.25, 101.17, 0.0759, 1000.0, 1000))
+('car_racing', (56, 15691, 492.75, 275.19, 679.97, 103.58, 0.07587, 998.47, 1000))
+('car_racing', (57, 15961, 481.66, 374.25, 640.47, 80.61, 0.07584, 1000.0, 1000))
+('car_racing', (58, 16231, 537.66, 363.78, 803.62, 125.25, 0.0758, 995.83, 1000))
+('car_racing', (59, 16502, 475.18, 282.53, 581.7, 89.61, 0.07577, 1000.0, 1000))
+('car_racing', (60, 16774, 527.26, 266.44, 667.51, 114.16, 0.07574, 996.1, 1000))
+('car_racing', (61, 17045, 499.74, 288.87, 754.66, 118.35, 0.07571, 998.43, 1000))
+('car_racing', (62, 17312, 494.2, 203.37, 771.59, 164.07, 0.07568, 1000.0, 1000))
+('car_racing', (63, 17583, 471.77, 157.67, 733.4, 166.35, 0.07565, 1000.0, 1000))
+('car_racing', (64, 17857, 505.75, 354.52, 633.46, 84.98, 0.07561, 998.27, 1000))
+('car_racing', (65, 18125, 526.47, 341.36, 722.15, 111.19, 0.07559, 996.85, 1000))
+('car_racing', (66, 18393, 444.01, 299.58, 585.37, 76.06, 0.07556, 1000.0, 1000))
+('car_racing', (67, 18667, 432.05, 174.3, 618.62, 108.89, 0.07554, 1000.0, 1000))
+('car_racing', (68, 18936, 501.27, 308.17, 744.03, 134.61, 0.07552, 997.02, 1000))
+('car_racing', (69, 19204, 523.81, 335.01, 704.91, 113.17, 0.07549, 1000.0, 1000))
+('car_racing', (70, 19476, 466.94, 283.61, 626.24, 94.18, 0.07547, 1000.0, 1000))
+('car_racing', (71, 19750, 574.37, 437.26, 702.1, 88.34, 0.07545, 993.39, 1000))
+('car_racing', (72, 20022, 488.91, 304.36, 797.9, 128.65, 0.07544, 998.16, 1000))
+('car_racing', (73, 20288, 404.49, 211.66, 597.22, 115.94, 0.07542, 1000.0, 1000))
+('car_racing', (74, 20564, 486.2, 362.73, 651.13, 85.8, 0.07541, 1000.0, 1000))
+('car_racing', (75, 20836, 546.0, 401.56, 652.93, 71.16, 0.0754, 1000.0, 1000))
+[478.5558 620.4719 651.0929 645.5594 562.3824 589.8795 466.0182 455.7943
+ 439.7484 688.0508 450.1883 644.747 ]
+[557.7074083333333]
+('improvement', 75, 52.74165000000005, 'curr', 557.7074083333333, 'prev', 504.96575833333327, 'best', 557.7074083333333)
+('car_racing', (76, 21370, 491.72, 342.9, 718.76, 125.58, 0.07539, 996.02, 1000))
+('car_racing', (77, 21639, 583.64, 397.09, 777.89, 117.6, 0.07538, 984.27, 1000))
+('car_racing', (78, 21910, 525.08, 415.45, 652.96, 61.36, 0.07538, 1000.0, 1000))
+('car_racing', (79, 22179, 483.1, 142.51, 637.15, 133.35, 0.07537, 997.08, 1000))
+('car_racing', (80, 22452, 586.72, 340.57, 778.14, 112.96, 0.07537, 999.04, 1000))
+('car_racing', (81, 22724, 518.36, 341.18, 655.19, 106.54, 0.07536, 1000.0, 1000))
+('car_racing', (82, 22996, 468.97, 170.62, 598.04, 122.23, 0.07536, 1000.0, 1000))
+('car_racing', (83, 23269, 481.83, 161.84, 636.57, 132.76, 0.07535, 1000.0, 1000))
+('car_racing', (84, 23547, 454.75, 188.4, 646.96, 121.07, 0.07535, 1000.0, 1000))
+('car_racing', (85, 23820, 409.22, 89.69, 546.3, 133.2, 0.07534, 1000.0, 1000))
+('car_racing', (86, 24093, 451.81, 260.15, 619.62, 112.5, 0.07533, 996.97, 1000))
+('car_racing', (87, 24362, 429.94, 305.79, 558.84, 78.67, 0.07533, 995.41, 1000))
+('car_racing', (88, 24633, 446.41, 212.89, 602.18, 111.49, 0.07532, 1000.0, 1000))
+('car_racing', (89, 24900, 507.33, 179.42, 696.62, 150.43, 0.07531, 998.64, 1000))
+('car_racing', (90, 25173, 420.04, 164.06, 654.11, 151.46, 0.0753, 998.56, 1000))
+('car_racing', (91, 25444, 492.15, 266.14, 706.12, 138.07, 0.07528, 1000.0, 1000))
+('car_racing', (92, 25718, 533.33, 373.5, 654.52, 93.36, 0.07527, 1000.0, 1000))
+('car_racing', (93, 25987, 510.71, 323.42, 638.96, 93.55, 0.07526, 1000.0, 1000))
+('car_racing', (94, 26258, 440.23, 207.11, 614.82, 105.1, 0.07524, 999.75, 1000))
+('car_racing', (95, 26532, 427.5, 255.93, 591.59, 106.56, 0.07523, 1000.0, 1000))
+('car_racing', (96, 26806, 445.36, 237.57, 581.97, 114.03, 0.07522, 999.37, 1000))
+('car_racing', (97, 27078, 377.71, 168.32, 584.89, 127.14, 0.07521, 999.5, 1000))
+('car_racing', (98, 27349, 505.71, 297.29, 651.47, 91.57, 0.07521, 1000.0, 1000))
+('car_racing', (99, 27620, 482.52, 324.11, 640.45, 97.18, 0.0752, 1000.0, 1000))
+('car_racing', (100, 27893, 443.38, 271.09, 566.76, 84.54, 0.07519, 1000.0, 1000))
+[371.7681 350.6089 352.308  652.2009 493.4093 524.4017 571.7157 394.2364
+ 438.1921 500.9124 488.6772 634.7901]
+[481.10173333333336]
+('improvement', 100, -76.60567499999996, 'curr', 481.10173333333336, 'prev', 557.7074083333333, 'best', 557.7074083333333)
+('car_racing', (101, 28430, 441.33, 310.47, 559.39, 83.26, 0.07518, 1000.0, 1000))
+('car_racing', (102, 28701, 413.7, 187.26, 590.93, 105.13, 0.07516, 1000.0, 1000))
+('car_racing', (103, 28976, 498.72, 329.43, 677.72, 113.39, 0.07515, 997.58, 1000))
+('car_racing', (104, 29251, 445.25, 244.61, 680.82, 111.37, 0.07513, 1000.0, 1000))
+('car_racing', (105, 29524, 450.42, 289.15, 594.03, 99.56, 0.07512, 1000.0, 1000))
+('car_racing', (106, 29794, 399.67, 227.7, 568.26, 109.65, 0.0751, 1000.0, 1000))
+('car_racing', (107, 30062, 428.76, 159.4, 726.58, 166.4, 0.07509, 998.14, 1000))
+('car_racing', (108, 30335, 391.55, 191.44, 583.53, 107.94, 0.07507, 1000.0, 1000))
+('car_racing', (109, 30608, 400.0, 195.5, 556.64, 115.48, 0.07506, 1000.0, 1000))
+('car_racing', (110, 30879, 432.61, 197.24, 690.78, 141.16, 0.07505, 1000.0, 1000))
+('car_racing', (111, 31152, 424.84, 193.04, 660.42, 156.77, 0.07503, 1000.0, 1000))
+('car_racing', (112, 31426, 523.76, 268.12, 653.74, 121.83, 0.07502, 1000.0, 1000))
+('car_racing', (113, 31693, 568.57, 438.3, 771.69, 84.45, 0.07501, 1000.0, 1000))
+('car_racing', (114, 31972, 423.66, 238.65, 665.84, 118.03, 0.075, 1000.0, 1000))
+('car_racing', (115, 32249, 514.91, 370.58, 676.53, 108.56, 0.07499, 1000.0, 1000))
+('car_racing', (116, 32521, 442.66, 129.82, 723.28, 149.83, 0.07497, 1000.0, 1000))
+('car_racing', (117, 32791, 454.91, 252.66, 691.32, 142.36, 0.07496, 1000.0, 1000))
+('car_racing', (118, 33060, 378.81, 201.86, 545.43, 103.27, 0.07494, 999.7, 1000))
+('car_racing', (119, 33330, 433.41, 310.06, 739.22, 126.69, 0.07493, 1000.0, 1000))
+('car_racing', (120, 33600, 473.69, 392.51, 592.08, 60.0, 0.07491, 1000.0, 1000))
+('car_racing', (121, 33869, 437.66, 304.76, 617.8, 101.13, 0.0749, 1000.0, 1000))
+('car_racing', (122, 34139, 479.56, 355.52, 623.2, 83.07, 0.07488, 1000.0, 1000))
+('car_racing', (123, 34412, 516.06, 269.07, 676.67, 98.28, 0.07487, 1000.0, 1000))
+('car_racing', (124, 34683, 563.08, 417.72, 721.59, 89.64, 0.07486, 1000.0, 1000))
+('car_racing', (125, 34956, 490.92, 198.59, 622.85, 123.29, 0.07485, 1000.0, 1000))
+[407.1755 428.3647 598.262  572.9697 558.4896 372.3182 342.2994 419.1905
+ 506.9624 578.0471 411.6768 613.1827]
+[484.0782166666667]
+('improvement', 125, -73.6291916666666, 'curr', 484.0782166666667, 'prev', 557.7074083333333, 'best', 557.7074083333333)
+('car_racing', (126, 35493, 513.53, 367.97, 659.55, 89.37, 0.07483, 1000.0, 1000))
+('car_racing', (127, 35767, 389.92, 141.45, 513.62, 115.18, 0.07482, 1000.0, 1000))
+('car_racing', (128, 36048, 588.23, 467.04, 703.91, 67.91, 0.07481, 1000.0, 1000))
+('car_racing', (129, 36332, 536.78, 269.21, 642.67, 111.76, 0.07479, 1000.0, 1000))
+('car_racing', (130, 36613, 477.28, 240.42, 673.07, 146.19, 0.07478, 1000.0, 1000))
+('car_racing', (131, 36894, 507.91, 334.48, 676.91, 106.67, 0.07477, 1000.0, 1000))
+('car_racing', (132, 37176, 512.3, 341.84, 612.82, 84.42, 0.07476, 1000.0, 1000))
+('car_racing', (133, 37455, 542.34, 323.39, 656.38, 93.86, 0.07475, 1000.0, 1000))
+('car_racing', (134, 37736, 516.18, 290.74, 671.4, 104.22, 0.07474, 1000.0, 1000))
+('car_racing', (135, 38018, 563.54, 362.9, 767.39, 126.52, 0.07473, 1000.0, 1000))
+('car_racing', (136, 38298, 495.39, 361.37, 657.99, 91.64, 0.07472, 998.58, 1000))
