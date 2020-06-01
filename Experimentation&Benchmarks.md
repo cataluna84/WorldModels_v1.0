@@ -550,5 +550,14 @@ python model.py car_racing --filename ./controller/car_racing.cma.4.12.best.json
 
 
 
-### Train 1 - DreamMode:
-python 05_train_controller.py car_racing -n 6 -t 2 -e 4 --max_length=1000 |& tee ./controller/train1_dream/controller_train_1.log
+### Train 6 - DreamMode:
+xvfb-run -a -s "-screen 0 1400x900x24" python 05_train_controller.py car_racing -n 7 -t 2 -e 4 --max_length 1000 --dream_mode 1 |& tee ./controller/train7_dream/controller_train.log
+
+### Train 7 - DreamMode: cont. (Generations 550 -> 'best' -25)
+xvfb-run -a -s "-screen 0 1400x900x24" python 05_train_controller.py car_racing -n 7 -t 2 -e 4 --max_length 1000 --init_opt ./controller/train6_dream\(new\)/car_racing.cma.4.14.es.pk281 --dream_mode 1 |& tee ./controller/controller_train.log
+
+python model.py car_racing --filename ./controller/car_racing.cma.4.14.best.json550 --render --record_video
+# The result is still disappointing. Maybe the dream env. is the culprit here, too much randomization.
+
+
+python model.py car_racing --filename ./controller/car_racing.cma.4.14.best.json275 --render --dream_mode
